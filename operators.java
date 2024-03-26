@@ -103,7 +103,9 @@ public class operators {
     }else{
         System.out.println("Buy a data Center");
     }    
-
+    // A conditional statement with multiple branches creates a decision tree
+    //whose nodes consist of boolean expressions and each branch is mared with true or false
+    
 
     }
 }
