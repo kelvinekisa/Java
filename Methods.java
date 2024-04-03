@@ -18,10 +18,28 @@ public class Methods {
         return ((w * w) / h);
 
     }
+    //you can also store results in a variable
+
+    static int cost(int price, int qty) {
+        return price * qty;
+    }
+
+
+    // A method with if...Else
+    //create a chackage() method with an integer variable called age
+    static void checkage(int age) {
+        //if age is less than 18 print access denied
+        if (age < 18) {
+            System.out.println("Access Denied - You are not old enough");
+        }else {System.out.println("Access granted - you ae old enough");}
+    }
     public static void main(String[] args) {
         myMethod("Kelvin");
         Area(10, 30);
         System.out.println(BMI(21, 12));
+        int total = cost(200, 05);
+        System.out.println(total);
+        checkage(12);
         
         /*
          * A method is a sequence of statements that can be invoked or reffered to by it's name
