@@ -1,5 +1,13 @@
+//a method is a sequence of statements that can be invoked or reffered to by it's name.
+
+// some methods have exceptions that define the method's behavior in case of a mistake in the program
+
+// The modifier static means that the method belongs to the class and it can be accessed without creating any object
+// The body holds the logic we want to implementby our method
+
 public class Methods {
 
+    //Method declaration
     static void myMethod(String fname) {
         System.out.println(fname + " Ekisa");
         System.out.println("I just got executed!");
@@ -49,6 +57,18 @@ public class Methods {
         System.out.println("Name: " + name);
         System.out.println("Average Score: " + averagescore);
     }
+    // public static Print(String Print){
+    //     System.out.println(Print);
+
+    // }
+
+    // / serves as the gateway to the world of java programming
+    // java programs can be considered as a collection of objects that can communicate via calling each others methods
+    // the main method shld always have the name main method
+    // public indicates that the method can be invoked from everywhere
+    //static indicates the method can be invoked without creating an instance of the class
+    // void indicates the method doesnt return any value
+    // rgs contains arguments entered at the command line
     public static void main(String[] args) {
         myMethod("Kelvin");
         Area(10, 30);
@@ -61,6 +81,8 @@ public class Methods {
 
         // calling  function with correct parametrs
         printStudent("Kelvin Ekisa", 364);
+
+        // Print("My name is kelvin Ekisa")
         /*
          * A method is a sequence of statements that can be invoked or reffered to by it's name
          * Parameters a value used inside a method
@@ -69,6 +91,9 @@ public class Methods {
          * when a parameter is passed to the method, it is called an argument
          * fname - parameter while Kelvin is an argument
          * 
+         * 
+         * main method in java serves as the gateway to the world of java programming
+         * place where execution begins and the foundation upon which your code is built
          * 
          * 
          * The VOID keyword used indicates that the method should not return a value
@@ -100,6 +125,11 @@ public class Methods {
           we define, the type, number, and order of the parameters
           
          */
+
+         // Functional decomposition
+         /*
+          * The approach of dividing a complex program into subroutines
+          */
         
     }
     
